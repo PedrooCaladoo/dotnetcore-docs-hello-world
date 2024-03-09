@@ -1,52 +1,83 @@
-﻿@page
-@model IndexModel
-@{    
-    ViewData["Title"] = "Home page";
-}
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página sobre Aves</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Bacony Company - Your Bacon Delight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Avifauna - Pássaros do Mundo</h1>
-            <ul>
-                <li><a href="#introducao">Introdução</a></li>
-                <li><a href="#tipos">Tipos de Aves</a></li>
-                <li><a href="#habitat">Habitat</a></li>
-                <li><a href="#curiosidades">Curiosidades</a></li>
-            </ul>
-        </nav>
+        <h1>Welcome to Bacony Company</h1>
+        <p>Your source for delicious bacon</p>
     </header>
 
-    <section id="introducao">
-        <h2>Introdução</h2>
-        <p>As aves são um grupo diversificado de animais vertebrados conhecidos por suas penas e capacidade de voar. Elas habitam todos os continentes do planeta e desempenham papéis vitais em ecossistemas naturais.</p>
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#products">Products</a> |
+        <a href="#about">About Us</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Explore the Delicious World of Bacon</h2>
+        <p>Discover our premium selection of mouth-watering bacon products.</p>
     </section>
 
-    <section id="tipos">
-        <h2>Tipos de Aves</h2>
-        <p>Existem milhares de espécies de aves em todo o mundo, cada uma com características únicas. Alguns exemplos incluem pássaros migratórios, aves de rapina, aves aquáticas e aves canoras.</p>
+    <section id="products">
+        <h2>Our Products</h2>
+        <p>Check out our diverse range of bacon products:</p>
+        <!-- Add your product listings here with images, descriptions, and prices -->
     </section>
 
-    <section id="habitat">
-        <h2>Habitat</h2>
-        <p>As aves ocupam uma variedade de habitats, desde florestas densas até desertos áridos e áreas urbanas. Elas se adaptaram a diferentes ambientes ao longo da evolução.</p>
+    <section id="about">
+        <h2>About Bacony Company</h2>
+        <p>We are dedicated to bringing you the finest quality bacon with a focus on taste and excellence.</p>
     </section>
 
-    <section id="curiosidades">
-        <h2>Curiosidades</h2>
-        <p>Algumas aves, como o beija-flor, são conhecidas por suas cores vibrantes e pelo voo rápido. Outras, como o pinguim, são mestres da natação. As aves também têm papéis importantes na polinização de plantas e na dispersão de sementes.</p>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to place an order? Reach out to us!</p>
+        <!-- Add a contact form or contact details here -->
     </section>
 
     <footer>
-        <p>&copy; 2023 Página sobre Aves</p>
+        <p>&copy; 2024 Bacony Company. All rights reserved.</p>
     </footer>
 </body>
 </html>
